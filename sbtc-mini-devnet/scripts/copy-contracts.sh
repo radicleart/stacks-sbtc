@@ -12,9 +12,9 @@ cd ~/hubgit/radicle-solutions/stacks-builders/stacks-sbtc/sbtc-mini-devnet
 infile=../sbtc-mini/contracts
 outfile=contracts
 m1In="'SP000000000000000000002Q6VF78.pox-2"
-m1Out="'ST000000000000000000002AMW42H.pox-2"
+m1Out=".pox-3"
 m2In="'ST000000000000000000002AMW42H.pox-2"
-m2Out="'ST000000000000000000002AMW42H.pox-2"
+m2Out=".pox-3"
 
 printf "Working Directory: `pwd`\n"
 printf "Copying and replacing: $infile to $outfile\n"

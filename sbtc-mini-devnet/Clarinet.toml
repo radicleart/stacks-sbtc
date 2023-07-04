@@ -6,23 +6,25 @@ telemetry = false
 cache_dir = './.cache'
 
 [[project.requirements]]
-contract_id = 'ST000000000000000000002AMW42H.pox-2'
-
-[[project.requirements]]
 contract_id = 'SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard'
+
+[contracts.sbtc-controller]
+path = 'contracts/sbtc-controller.clar'
+clarity_version = 2
+epoch = 2.1
 
 [contracts.clarity-bitcoin]
 path = 'contracts/clarity-bitcoin.clar'
 clarity_version = 2
 epoch = 2.1
 
-[contracts.sbtc-btc-tx-helper]
-path = 'contracts/sbtc-btc-tx-helper.clar'
+[contracts.pox-3]
+path = 'contracts/external/pox-3.clar'
 clarity_version = 2
 epoch = 2.1
 
-[contracts.sbtc-controller]
-path = 'contracts/sbtc-controller.clar'
+[contracts.sbtc-btc-tx-helper]
+path = 'contracts/sbtc-btc-tx-helper.clar'
 clarity_version = 2
 epoch = 2.1
 
@@ -60,6 +62,7 @@ epoch = 2.1
 path = 'contracts/sbtc-wallet-vote.clar'
 clarity_version = 2
 epoch = 2.1
+
 [repl.analysis]
 passes = ['check_checker']
 
