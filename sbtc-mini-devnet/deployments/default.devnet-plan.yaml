@@ -27,10 +27,10 @@ plan:
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: sbtc-btc-tx-helper
+            contract-name: pox-3
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            cost: 30000
-            path: contracts/sbtc-btc-tx-helper.clar
+            cost: 675060
+            path: contracts/external/pox-3.clar
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
@@ -71,7 +71,7 @@ plan:
         - contract-publish:
             contract-name: sbtc-stacking-pool
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            cost: 177010
+            cost: 172210
             path: contracts/sbtc-stacking-pool.clar
             anchor-block-only: true
             clarity-version: 2
